@@ -1,6 +1,6 @@
 {
   "name": "jquery.jold.js-block",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A jQuery plugin that places a onclick event on a block, looking for the first link in that block.",
   "main": "gulpfile.js",
   "devDependencies": {},
@@ -15,6 +15,7 @@
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/joldnl/jquery.jold.js-block",
   "dependencies": {
+    "bach": "^1.2.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",

@@ -1,6 +1,6 @@
 # jQuery JOLD Js-block
 
-Version 1.0.1
+Version 1.0.2
 
 ## Summary
 
@@ -25,7 +25,7 @@ $ npm install jquery.jold.js-block
 ### Initialize the plugin
 
 ```js
-$('.js-block').joldJsBlock();
+$('.js-block').joldJsblock();
 
 ```
 
@@ -38,11 +38,6 @@ Tested with jQuery 1.12.1.
 
 
 ## Changelog
-
-
-#### Version 1.0.1
-
-* Improve plugin name consistency. Updated joldJsblock -> joldJsBlock (write in camelcase).
 
 
 #### Version 1.0.0
