@@ -15,7 +15,6 @@
   "license": "BSD-3-Clause",
   "homepage": "https://github.com/joldnl/jquery.jold.js-block",
   "dependencies": {
-    "bach": "^1.2.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",

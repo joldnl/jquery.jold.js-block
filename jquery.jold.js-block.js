@@ -1,5 +1,5 @@
 /*!
- * JOLD jQuery js-block 1.0.0
+ * JOLD jQuery js-block 1.0.1
  *
  * Copyright (c) 2018 JOLD Interactive; Jurgen Oldenburg <info@jold.nl>
  *
@@ -35,20 +35,20 @@
     };
 
 
-    $.fn.joldJsblock = function( options ) {
+    $.fn.joldJsBlock = function( options ) {
 
         var element = $(this);
 
         // Return early if this element already has a plugin instance
-        if (element.data('joldJsblock')) return element.data('joldJsblock');
+        if (element.data('joldJsBlock')) return element.data('joldJsBlock');
 
         // pass options to plugin constructor
-        var joldJsblock = new JoldJsblock( this, options );
+        var joldJsBlock = new JoldJsblock( this, options );
 
         // Store plugin object in this element's data
-        element.data('joldJsblock', joldJsblock);
+        element.data('joldJsBlock', joldJsBlock);
 
-        return joldJsblock;
+        return joldJsBlock;
 
     };
 
