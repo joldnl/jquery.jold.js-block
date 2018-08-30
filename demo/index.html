@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>jquery.jold.js-blocks demo</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src="../jquery.jold.js-block.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>JOLD js-blocks jQuery plugin demo:</h1>
+            <p>A jQuery plugin that places a onclick event on a block, looking for the first link in that block.</p>
+            <hr>
+            <div class="card js-block">
+                <img src="https://placeimg.com/640/480/any" alt="">
+                <p>Cum sociis natoque penatibus et magnis dis parturient. Nihil hic munitissimus habendi senatus locus, nihil horum? Magna pars studiorum</p>
+                <a href="http://www.nos.nl">Go to NOS</a>
+            </div>
+        </div>
+
+        <script>
+            (function($){
+                $('.js-block').joldJsblock();
+            })(jQuery);
+        </script>
+
+    </body>
+
+</html>
