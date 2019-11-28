@@ -11,7 +11,10 @@ A jQuery plugin that places a onclick event causing a webpage top open on a bloc
 Include `jquery.jold.js-block.min.js` after calling jQuery in the footer. Alternatively, include in your `plugins.js` file if using [HTML5 Boilerplate](http://html5boilerplate.com).
 
 
-### Installation
+# Installation:
+Install the plugin with npm and include it in your build process, or directly include the files in the head of your page.
+
+### Install with npm (recommended):
 
 ```bash
 $ npm install jquery.jold.js-block
