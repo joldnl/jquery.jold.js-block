@@ -6,12 +6,8 @@ Version 1.0.2
 
 A jQuery plugin that places a onclick event causing a webpage top open on a block, looking for the first link in that block.
 
-## Usage
 
-Include `jquery.jold.js-block.min.js` after calling jQuery in the footer. Alternatively, include in your `plugins.js` file if using [HTML5 Boilerplate](http://html5boilerplate.com).
-
-
-# Installation:
+## Installation:
 Install the plugin with npm and include it in your build process, or directly include the files in the head of your page.
 
 ### Install with npm (recommended):
@@ -32,18 +28,21 @@ After installing the plugin with npm, you still need to include the downloaded f
 
 Load the plugin from jsdeliver CDN
 
-### Initialize the plugin
+## Using the plugin
+
+#### Add click on an element:
 
 ```js
+// Add click event with the url from the first found <a> in the element
 $('.js-block').joldJsblock();
 ```
 
-This example opens adds an onclick event on the selected element, it looks for the closest link inside that block, skipping all '.js-block-skip' links.
+This example adds an onclick event on the selected element, it looks for the closest (first) link inside that block, skipping all '.js-block-skip' links.
 
 
 ## Requirements
 
-Tested with jQuery 1.12.1.
+- jQuery > 1.12.1
 
 
 ## Changelog
