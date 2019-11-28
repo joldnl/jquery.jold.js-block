@@ -20,6 +20,18 @@ Install the plugin with npm and include it in your build process, or directly in
 $ npm install jquery.jold.js-block
 ```
 
+After installing the plugin with npm, you still need to include the downloaded files from node_modules into your workflow.
+
+
+### Include script from cdn:
+
+```html
+<!-- Include js from jsdelivr cdn -->
+<script src="https://cdn.jsdelivr.net/npm/jquery.jold.js-block/jquery.jold.js-block.min.js"></script>
+```
+
+Load the plugin from jsdeliver CDN
+
 ### Initialize the plugin
 
 ```js
