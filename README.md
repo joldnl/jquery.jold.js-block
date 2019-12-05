@@ -1,6 +1,6 @@
 # jQuery JOLD Js-block
 
-Version 1.0.4
+Version 1.0.5
 
 ## Summary
 
@@ -46,6 +46,11 @@ This example adds an onclick event on the selected element, it looks for the clo
 
 
 ## Changelog
+
+
+#### Version 1.0.5
+
+* Ignore .git folder
 
 
 #### Version 1.0.4
