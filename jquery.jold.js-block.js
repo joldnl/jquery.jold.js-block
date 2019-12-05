@@ -1,5 +1,5 @@
 /*!
- * JOLD jQuery js-block 1.0.3
+ * JOLD jQuery js-block 1.0.4
  *
  * Copyright (c) 2018 JOLD Interactive; Jurgen Oldenburg <info@jold.nl>
  *

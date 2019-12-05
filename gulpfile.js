@@ -19,7 +19,7 @@ var options = {
     // ----- Manifest details ----- //
     metadata : {
         appName         : "jquery.jold.js-block",
-        version         : "1.0.3",
+        version         : "1.0.4",
         appDescription  : "A jQuery plugin that places a onclick event on a block, looking for the first link in that block.",
         developerName   : "JOLD Interactive; Jurgen Oldenburg",
         developerURL    : "https://www.jold.nl",
