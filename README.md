@@ -1,6 +1,6 @@
 # jQuery JOLD Js-block
 
-Version 1.0.5
+Version 1.0.6
 
 ## Summary
 
@@ -48,6 +48,11 @@ This example adds an onclick event on the selected element, it looks for the clo
 ## Changelog
 
 
+#### Version 1.0.6
+
+* Add .npmignore file
+
+
 #### Version 1.0.5
 
 * Ignore .git folder
@@ -68,4 +73,3 @@ This example adds an onclick event on the selected element, it looks for the clo
 ## Author
 
 Jurgen Oldenburg ( [@staxxnl](http://twitter.com/staxxnl) / [jold.nl](https://www.jold.nl) / [info@jold.nl](info@jold.nl) )
-
